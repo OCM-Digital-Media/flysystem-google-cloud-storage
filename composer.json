@@ -9,12 +9,6 @@
             "League\\Flysystem\\GoogleCloudStorage\\": ""
         }
     },
-     "repositories": [
-        {
-          "type": "vcs",
-          "url": "https://github.com/OCM-Digital-Media/flysystem"
-        }
-    ],
     "require": {
         "php": "^8.0.2",
         "google/cloud-storage": "^1.23",
