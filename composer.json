@@ -9,10 +9,16 @@
             "League\\Flysystem\\GoogleCloudStorage\\": ""
         }
     },
+     "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/OCM-Digital-Media/flysystem"
+        }
+    ],
     "require": {
         "php": "^8.0.2",
         "google/cloud-storage": "^1.23",
-        "league/flysystem": "^2.0.0 || ^3.0.0",
+        "league/flysystem": "dev-ocm-flysystem",
         "league/mime-type-detection": "^1.0.0"
     },
     "license": "MIT",
